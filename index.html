@@ -21,7 +21,7 @@
                 <!--Adiciona presentes e dinheiro recebido de acordo com o titulo-->
                 <div id="addPeople">
                     Título:
-                    <input id="numero" type="number"><br>
+                    <input id="numeroTitulo" type="number"><br>
                     Pago R$:
                     <input id="troco" type="number">
                     <button onclick="check()">OK</button>
@@ -29,7 +29,17 @@
 
                 <!--Lista os presentes-->
                 <div id="presentes">
-                    Presentes:
+                    Lista de presentes:
+                    <table id="myTable">
+                        <tr>
+                          <td>Apelido</td>
+                          <td>Titulo</td>
+                          <td>Categoria</td>
+                          <td>Troco</td>
+                        </tr>
+                      </table>
+                      <br>
+                      <button onclick="sorteio()">Sorteio</button>
                 </div>
             </div>
             <div class="col">
@@ -37,8 +47,6 @@
             </div>
             <div class="col">
                 <div id="campo1">
-
-
 
                 </div>
             </div>
