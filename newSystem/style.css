@@ -1,0 +1,17 @@
+#addPeople{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(120, 120, 120);
+    border-style: solid;
+    border-color: rgb(80, 80, 80);
+    border-radius: 10px;
+}
+
+#presentes{
+    margin-top: 50px;
+    width: 300px;
+    background-color: rgb(120, 120, 120);
+    border-style: solid;
+    border-color: rgb(80, 80, 80);
+    border-radius: 10px;
+}
